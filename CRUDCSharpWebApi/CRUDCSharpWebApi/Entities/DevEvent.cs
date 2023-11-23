@@ -1,8 +1,8 @@
 ﻿namespace CRUDCSharpWebApi.Entities
 {
-    public class Event
+    public class DevEvent
     {
-        public Event() 
+        public DevEvent() 
         {
             Speakers = new List<EventSpeaker>();
             IsDeleted = false;
